@@ -1,0 +1,58 @@
+*{
+	font-family: "Josefin Sans", sans-serif;
+}
+.navbar-default{
+	background-color:$white;
+	border-color: $white;
+	font-size:25px;
+	.navbar-brand{
+		padding:0;
+		.logo{
+			width:$a-logo;
+		}
+	}
+}
+.navbar-nav{
+	li:hover{
+		background-color:$fondo;
+		a:hover{
+			color: $black;
+		}
+	}
+}
+.one{
+	padding:6px;
+	background-color:$fondo;
+	height:500px;
+	h1{
+	  font-size:$t-letra;
+	  padding-top:$padding-t;
+	  margin:20px;
+	  color: $white;
+	}
+}
+.box{
+	@include box();
+	@include parrafo();
+}
+.btn-success{
+	background-color:$fondo;
+	color:$black;
+	border-color:$fondo;
+	width: 30%;
+}
+.btn-success:hover{
+	color:$black;
+	background-color:$hover;
+	border-color:$hover;
+}
+.two{
+	h2{
+	  @include info-titulo();
+	  background-color:$white;
+	}
+}
+footer{
+	  background-color:$fondo;
+	  @include parrafo();
+}

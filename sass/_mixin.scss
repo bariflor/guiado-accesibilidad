@@ -1,0 +1,12 @@
+@mixin info-titulo(){
+	text-align: center;
+	font-size: 50px;
+}
+@mixin box(){
+	margin-bottom:70px;
+}
+@mixin parrafo(){
+	font-size:25px;
+	text-align:center;
+	padding:15px;
+}
